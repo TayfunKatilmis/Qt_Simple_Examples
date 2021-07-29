@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="icon.qrc">
+    <normaloff>:/icon/icon/questions.png</normaloff>:/icon/icon/questions.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>300</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_critical">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>70</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">qproperty-icon:url(:/icon/icon/critical.png)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>141</width>
+      <height>91</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_warning">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>70</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">qproperty-icon:url(:/icon/icon/warning.png)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>141</width>
+      <height>91</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_information">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>70</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">qproperty-icon:url(:/icon/icon/information.png)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>141</width>
+      <height>91</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_question">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>250</y>
+      <width>131</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">qproperty-icon:url(:/icon/icon/questions.png)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>141</width>
+      <height>80</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_ozel_kullanim">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>250</y>
+      <width>131</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">qproperty-icon:url(:/icon/icon/123.png)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>141</width>
+      <height>80</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>200</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Critical</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>200</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Warning</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>190</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>İnformation</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>370</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Question</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>360</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Özel Kullanım</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>260</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Sayılar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuQMessageBox">
+    <property name="title">
+     <string>QMessageBox</string>
+    </property>
+    <addaction name="actioncritical"/>
+    <addaction name="separator"/>
+    <addaction name="actionwarning"/>
+    <addaction name="separator"/>
+    <addaction name="actioninformation"/>
+    <addaction name="separator"/>
+    <addaction name="action123"/>
+    <addaction name="separator"/>
+    <addaction name="actionquestion"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+   </widget>
+   <addaction name="menuQMessageBox"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actioncritical"/>
+   <addaction name="separator"/>
+   <addaction name="actionwarning"/>
+   <addaction name="separator"/>
+   <addaction name="actioninformation"/>
+   <addaction name="separator"/>
+   <addaction name="action123"/>
+   <addaction name="separator"/>
+   <addaction name="actionquestion"/>
+  </widget>
+  <action name="actioncritical">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icon/icon/critical.png</normaloff>:/icon/icon/critical.png</iconset>
+   </property>
+   <property name="text">
+    <string>critical</string>
+   </property>
+  </action>
+  <action name="actionwarning">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icon/icon/warning.png</normaloff>:/icon/icon/warning.png</iconset>
+   </property>
+   <property name="text">
+    <string>warning</string>
+   </property>
+  </action>
+  <action name="actioninformation">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icon/icon/information.png</normaloff>:/icon/icon/information.png</iconset>
+   </property>
+   <property name="text">
+    <string>information</string>
+   </property>
+  </action>
+  <action name="action123">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icon/icon/123.png</normaloff>:/icon/icon/123.png</iconset>
+   </property>
+   <property name="text">
+    <string>ozel</string>
+   </property>
+   <property name="toolTip">
+    <string>ozel</string>
+   </property>
+  </action>
+  <action name="actionquestion">
+   <property name="icon">
+    <iconset resource="icon.qrc">
+     <normaloff>:/icon/icon/questions.png</normaloff>:/icon/icon/questions.png</iconset>
+   </property>
+   <property name="text">
+    <string>question</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>

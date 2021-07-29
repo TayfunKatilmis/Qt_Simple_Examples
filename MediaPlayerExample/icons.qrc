@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>icon/solakaydır.png</file>
+        <file>icon/sagakaydır.png</file>
+        <file>icon/acma.png</file>
+    </qresource>
+</RCC>
