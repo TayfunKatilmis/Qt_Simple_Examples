@@ -1,0 +1,45 @@
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
+
+#include <QMainWindow>
+#include <QTimer>
+#include <opencv2/core/core.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+
+QT_BEGIN_NAMESPACE
+namespace Ui { class MainWindow; }
+QT_END_NAMESPACE
+
+class MainWindow : public QMainWindow
+{
+    Q_OBJECT
+
+public:
+    MainWindow(QWidget *parent = nullptr);
+    ~MainWindow();
+
+private slots:
+    void on_btnPauseorResume_clicked();
+
+
+
+public slots:
+    void processFrameAndUpdateGUI();
+
+
+private:
+    Ui::MainWindow *ui;
+    cv::VideoCapture capwebcam;
+    cv::Mat matOriginal;
+    cv::Mat matProcessed;
+
+    QImage qimagOrginal;
+    QImage qmatProcessed;
+
+    std::vector<cv::Vec3f> vecCircles;
+    std::vector<cv::Vec3f>::iterator itrCircles;
+
+    QTimer* tmrTimer;
+};
+#endif // MAINWINDOW_H

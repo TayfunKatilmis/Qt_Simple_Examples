@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/critical.png</file>
+    </qresource>
+</RCC>
